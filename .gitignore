@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# 本地私有配置，绝不提交
+config.ini
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
