@@ -9,9 +9,13 @@ def farewell(name: str) -> str:
     return f"再见，{name}。"
 
 
+def shout(name: str) -> str:
+    """分支上新增的功能。"""
+    return greet(name).upper()
+
+
 def main() -> None:
-    print(greet("世界"))
-    print(farewell("世界"))
+    print(shout("分支实验"))
 
 
 if __name__ == "__main__":
